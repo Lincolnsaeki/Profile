@@ -13,6 +13,7 @@
 		E9BFABFE2827AB3900C19E2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9BFABFC2827AB3900C19E2B /* Main.storyboard */; };
 		E9BFAC002827AB3A00C19E2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9BFABFF2827AB3A00C19E2B /* Assets.xcassets */; };
 		E9BFAC032827AB3A00C19E2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9BFAC012827AB3A00C19E2B /* LaunchScreen.storyboard */; };
+		E9BFAC0B282ABE6400C19E2B /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E9BFAC0A282ABE6400C19E2B /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E9BFABFF2827AB3A00C19E2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9BFAC022827AB3A00C19E2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9BFAC042827AB3A00C19E2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9BFAC0A282ABE6400C19E2B /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				E9BFABFF2827AB3A00C19E2B /* Assets.xcassets */,
 				E9BFAC012827AB3A00C19E2B /* LaunchScreen.storyboard */,
 				E9BFAC042827AB3A00C19E2B /* Info.plist */,
+				E9BFAC0A282ABE6400C19E2B /* icon.png */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9BFAC0B282ABE6400C19E2B /* icon.png in Resources */,
 				E9BFAC032827AB3A00C19E2B /* LaunchScreen.storyboard in Resources */,
 				E9BFAC002827AB3A00C19E2B /* Assets.xcassets in Resources */,
 				E9BFABFE2827AB3900C19E2B /* Main.storyboard in Resources */,
@@ -300,7 +304,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Profile;
+				PRODUCT_BUNDLE_IDENTIFIER = Profileapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -328,7 +332,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Profile;
+				PRODUCT_BUNDLE_IDENTIFIER = Profileapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
